@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Comment gadget</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" href="./style.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <div style="display: flex;align-items: center;flex-direction: column;">
+        <h1>Comment Please!</h1>
+        <div style="display: flex;flex-direction: row; padding: 25px;">
+            <textarea style="width: 500px; margin: 5px; height: 20px; padding: 10px;" id="newComment"></textarea>
+            <button onClick="addComment()">Comment</button>
+        </div>
+        <div id="commentList">
+        </div>
+      </div> 
+  </body>
+  <script type="text/javascript" src="script.js"></script>
+</html>
